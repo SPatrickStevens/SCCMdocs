@@ -201,7 +201,7 @@ The cloud management gateway connector point is a new site system role for commu
 
 ## Step 7: Configure roles for cloud management gateway traffic
 
-The final step in setting up cloud management gateway is to configure the site system roles to accept cloud management gateway traffic. For Tech Preview 1606, only the management point, distribution point, and software update point roles are supported for cloud management gateway. You must configure each role separately.
+The final step in setting up cloud management gateway is to configure the site system roles to accept cloud management gateway traffic. Currently, only the management point, distribution point, and software update point roles are supported for cloud management gateway. You must configure each role separately.
 
 1. In the Configuration Manager console, go to **Administration** > **Site Configuration** > **Servers and Site System Roles**.
 
@@ -209,7 +209,7 @@ The final step in setting up cloud management gateway is to configure the site s
 
 3. Choose the role, and then choose **Properties**.
 
-4. In the role Properties sheet, under Client Connections, choose **HTTPS**, check the box next to **Allow Configuration Manager cloud management gateway traffic**, and then choose **OK**. Repeat these steps for the remaining roles.
+4. In the role Properties sheet, under Client Connections, choose **HTTP** or **HTTPS**, check the box next to **Allow Configuration Manager cloud management gateway traffic**, and then choose **OK**. Repeat these steps for the remaining roles.
 
 ## Step 8: Configure clients for cloud management gateway
 
